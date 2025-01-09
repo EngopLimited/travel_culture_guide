@@ -1,0 +1,63 @@
+{
+  "name": "travel_culture_guide",
+  "version": "1.0.0",
+  "description": "Task 2: Explore Tanzania - A Travel & Culture Guide",
+  "keywords": [
+    "travel"
+  ],
+  "homepage": "https://github.com/EngopLimited/travel_culture_guide#readme",
+  "bugs": {
+    "url": "https://github.com/EngopLimited/travel_culture_guide/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngopLimited/travel_culture_guide.git"
+  },
+  "license": "ISC",
+  "author": "Gerrard and Hefsi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ansi-colors": "^1.1.0",
+    "ansi-regex": "^5.0.1",
+    "ansi-wrap": "^0.1.0",
+    "arr-diff": "^4.0.0",
+    "arr-union": "^3.1.0",
+    "assign-symbols": "^1.0.0",
+    "braces": "^3.0.3",
+    "chokidar": "^4.0.3",
+    "detect-libc": "^1.0.3",
+    "extend-shallow": "^3.0.2",
+    "fill-range": "^7.1.1",
+    "gulp": "^5.0.0",
+    "gulp-cli": "^3.0.0",
+    "immutable": "^5.0.3",
+    "is-extendable": "^1.0.1",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "is-plain-object": "^2.0.4",
+    "isobject": "^3.0.1",
+    "lodash.clonedeep": "^4.5.0",
+    "micromatch": "^4.0.8",
+    "node-addon-api": "^7.1.1",
+    "picocolors": "^1.1.1",
+    "picomatch": "^2.3.1",
+    "plugin-error": "^1.0.1",
+    "readdirp": "^4.0.2",
+    "replace-ext": "^2.0.0",
+    "source-map": "^0.5.7",
+    "source-map-js": "^1.2.1",
+    "strip-ansi": "^6.0.1",
+    "to-regex-range": "^5.0.1",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  },
+  "devDependencies": {
+    "gulp-purgecss": "^7.0.2",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.83.1"
+  }
+}
