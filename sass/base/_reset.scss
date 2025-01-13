@@ -1,4 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+    /* Remove Default setting to Document  */
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  
+      html {
+        box-sizing: border-box;
+      }
+  
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+  
+      /* -- End for setting -- */
+  

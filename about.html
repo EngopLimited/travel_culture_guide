@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- nav -->
+  <nav>
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href=""><img src="close.png" alt="" width="26" height="26"></a></li>
+      <li><a href="">Home</a></li>
+      <li><a href="">About Us</a></li>
+      <li><a href="">Destination</a></li>
+      <li><a href="">Culture</a></li>
+      <li><a href="">Travel Tips</a></li>
+      <li><a href="">Contact Us</a></li>
+    </ul>
+
+    <ul>
+      <li><a href=""><img src="travel.jpeg" alt="" width="70" height="50" style="border-radius: 50px;"></a></li>
+      <li class="hideOnMobile"><a href="">Home</a></li>
+      <li class="hideOnMobile"><a href="">About Us</a></li>
+      <li class="hideOnMobile"><a href="">Destination</a></li>
+      <li class="hideOnMobile"><a href="">Culture</a></li>
+      <li class="hideOnMobile"><a href="">Travel Tips</a></li>
+      <li class="hideOnMobile"><a href="">Contact Us</a></li>
+      <li onclick="showSidebar()"><a href=""><img src="menu.png" alt="" width="26" height="26"></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.style.display = 'flex';
+
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.style.display = 'none';
+    }
+  </script>
+
+  <!-- End nav -->
+
+  <!-- about-section -->
+  <div class="about-section">
+    <h1>About Us </h1>
+  </div>
+
+  <!-- End about-section -->
+  <br>
+  <br>
+  <!-- news -->
+  <div class="news">
+    <h2>Explore Tanzania - Travel & Culture Guide</h2>
+    To showcase Tanzania's  rich cultural,<br> breath-taking landscapes,
+  and travel destinations<br>aimed at both locals and tourists.
+  <br>
+  <br>at vero eros et accumsan et iusto odio dignissim qui
+    To show case our possession <br>feugait nulla facilisi. Nam liber tempor cum soluta
+    <br> mazim placerat facer possim assum.
+  </div>
+  <!-- End news -->
+  <br>
+  <br>
+  <h2 style="text-align:center">Our Team</h2>
+  <br>
+  <br>
+  <!-- row and column -->
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="pic1.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Jane Doe</h2>
+          <br>
+          <p class="title">CEO & Founder</p>
+          <br>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <br>
+          <p>jane@example.com</p>
+          <br>
+          <p><button class="button">Contact</button></p>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="pic2.jpg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <br>
+          <p class="title">Art Director</p>
+          <br>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <br>
+          <p>mike@example.com</p>
+          <br>
+          <p><button class="button">Contact</button></p>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="pic3.jpg" alt="John" style="width:100%;">
+        <div class="container">
+          <h2>John Doe</h2>
+          <br>
+          <p class="title">Designer</p>
+          <br>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <br>
+          <p>john@example.com</p>
+          <br>
+          <p><button class="button">Contact</button></p>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End row and column -->
+</body>
+
+</html>
