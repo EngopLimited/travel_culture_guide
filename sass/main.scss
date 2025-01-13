@@ -1,4 +1,7 @@
-$primary: rgb(0, 255, 106);
-body{
-    background-color: $primary;
-}
+@forward 'base';
+@forward 'utils';
+@forward 'components';
+@forward 'layout';
+@forward 'pages';
+@forward 'themes';
+@forward 'vendors';
