@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel & Guide</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
       <!-- Favicons -->
   <link href="asset/" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -13,171 +13,180 @@
 </head>
 <body>
     <!-- navbar -->
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href=""><img src="./assets/close.png" alt="" width="26" height="26"></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="destination.html">Destination</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <li><a href="travel_tips.html">Travel Tips</a></li>
+        <li><a href="contacts.html">Contact Us</a></li>
+      </ul>
+  
+      <ul>
+        <li><a href=""><img src="./assets/travel.jpeg" alt="" width="70" height="50" style="border-radius: 50px;"></a></li>
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+        <li class="hideOnMobile"><a href="destination.html">Destination</a></li>
+        <li class="hideOnMobile"><a href="culture.html">Culture</a></li>
+        <li class="hideOnMobile"><a href="travel_tips.html">Travel Tips</a></li>
+        <li class="hideOnMobile"><a href="contacts.html">Contact Us</a></li>
+        <li onclick="showSidebar()"><a href=""><img src="./assets/menu.png" alt="" width="26" height="26"></a></li>
+      </ul>
+    </nav>
 
-
-  <section class="mb-2  bg-img">
-
-    <div class="row">
-        <h1 class="">Contact us</h1>
-    </div>
-  </section>
-
-    <!-- work section -->
-    <section  id="hero" class="hero">
-        <div class="container">
-         <div class="row space-between">
-          <div class="xs:col-12 md:col-6 lg:col-6 xl:col-6">
-            <div class="form">
-                <form action="" method="post">
-                    <div class=" gap-1">
-                        <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6">
-                            <label for="">Your Name</label>
-                        </div>
-                        <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8">
-                            <input type="text" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-field w-60 h-40" placeholder="Enter your Name">
-
-                        </div>
-                    </div>
-                    <div class=" gap-1">
-                        <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6 mt-1">
-                            <label for="">Your Email</label>
-                        </div>
-                        <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8">
-                            <input type="text" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-field w-45 h-40" placeholder="Enter your email">
-
-                        </div>
-                    </div>
-                    <div class="gap-1">
-                        <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6 mt-1">
-                            <label for="">Your Email</label>
-                        </div>
-                        <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8 ">
-                            <input type="text" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-field w-45 h-50" placeholder="Enter your Phone Number">
-
-                        </div>
-                    </div>
-                    <div class=" gap-1">
-                        <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6 mt-1">
-                            <label for="">Subject</label>
-                        </div>
-                        <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8">
-                            <input type="text" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-field w-45 h-40 w-45" placeholder="Enter your subject">
-
-                        </div>
-                    </div>
-                    <div class="gap-1">
-                        <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6 mt-1">
-                            <label for="">Your Message (optional)</label>
-                        </div>
-                        <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8">
-                            <textarea name="message" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-textarea w-45 h-90 "  id=""  placeholder="Enter your Message"></textarea>
-
-
-                        </div>
-                    </div>
-                    <button type="submit" class="btn-outlined-one text-one hover:text-white mt-1">Submit</button>
-
-                </form>
-            </div>
-
-          </div>
-          <div id="footer-right" class="  xs:col-12 md:col-6 lg:col-6 xl:col-5">
-            <div class="xs:col-12 md:col-6 lg:col-6 xl:col-5">
-                <h4 class="">Useful Links</h4>
-            </div>
-            <div class="footer-top-links mt-1">
-              <div class="xs:col-12 sm:col-6 md:col-6 lg:col-6 footer-link">
-
-                <ul>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Tato</a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Tanzania tourisim board</a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Mali asili </a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">zanzibar tourisim board</a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Hotels</a></li>
-                </ul>
-              </div>
-          </div>
-            </div>
-
-         </div>
-
-        </div>
-        </section>
-
-     <section id="work" class="mt-2">
-        <div class="container">
-            <div class="row">
-
-                <div class="xs:col-12">
-
-                </div>
-
-            </div>
-
-        </div>
-     </section>
-
-
-<section class="mt-4 bg-donna-50">
-
-     <footer id="footer" class=" "  >
-        <div class="footer-top">
-          <div class="container">
-            <div class="row">
-              <div class="xs:col-12 sm:col-6 md:col-6 lg:col-3 footer-links">
-                <h4>Travel & Culture</h4>
-                <ul>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Destination</a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">About us</a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Culture</a></li>
-                </ul>
-              </div>
-
-              <div class="xs:col-12 sm:col-6 md:col-6 lg:col-3 footer-links">
-                <h4>Support</h4>
-                <ul>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Contact Us</a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">FAQs</a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="">SAfety Updates</a></li>
-                </ul>
-              </div>
-              <div class="xs:col-12 sm:col-6 md:col-6 lg:col-3 footer-links">
-                <h4>Community</h4>
-                <ul>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Blog</a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Blonchure</a></li>
-                  <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="">Newslatter</a></li>
-                </ul>
-              </div>
-              <div class="xs:col-12 sm:col-6 md:col-6 lg:col-3 footer-links">
-                <h4>Social Networks</h4>
-                <div class="social-links">
-                  <a href="#" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
-                  <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                  <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="container ">
-          <div class="copyright xs:col-12 sm:col-12 md:col-6 lg:col-3 mb-1">
-            &copy; Copyright . All Rights Reserved
-          </div>
-          <div class="credits xs:col-12 md:col-6 lg:col-3 mb-3">
-            Terms and <a href="#home">conditions</a>
-          </div>
-          <div class="credits xs:col-12 md:col-6 lg:col-3 mb-3">
-           Privacy <a href="#home">policy</a>
-          </div>
-        </div>
-
-      </footer><!-- End Footer -->
+    <section class="bg-img bg-img bg-top bg-center bg-bottom h-auto" style="background-image: url('./assets/hh.jpg');">
+    
+      <div class="row">
+          <h1 class="">Contact us</h1>
+      </div>
     </section>
-
-    <script src="js/index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    
+      <!-- work section -->
+      <section  id="hero" class="hero">
+          <div class="container">   
+           <div class="row space-between">
+            <div class="xs:col-12 md:col-6 lg:col-6 xl:col-6">
+              <div class="form">
+                  <form action="" method="post">
+                      <div class=" gap-1">
+                          <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6">
+                              <label for="">Your Name</label>
+                          </div>
+                          <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8">
+                              <input type="text" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-field w-60 h-40" placeholder="Enter your Name">
+                      
+                          </div>
+                      </div>
+                      <div class=" gap-1">
+                          <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6 mt-1">
+                              <label for="">Your Email</label>
+                          </div>
+                          <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8">
+                              <input type="text" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-field w-45 h-40" placeholder="Enter your email">
+                      
+                          </div>
+                      </div>
+                      <div class="gap-1">
+                          <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6 mt-1">
+                              <label for="">Your Phone</label>
+                          </div>
+                          <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8 ">
+                              <input type="text" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-field w-45 h-50" placeholder="Enter your Phone Number">
+                      
+                          </div>
+                      </div>
+                      <div class=" gap-1">
+                          <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6 mt-1">
+                              <label for="">Subject</label>
+                          </div>
+                          <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8">
+                              <input type="text" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-field w-45 h-40 w-45" placeholder="Enter your subject">
+                      
+                          </div>
+                      </div>
+                      <div class="gap-1">
+                          <div class="xs:col-12 sm:col-12 md:col-12 lg:col-6 xl:col-6 mt-1">
+                              <label for="">Your Message (optional)</label>
+                          </div>
+                          <div class="xs:col-12 sm:col-12 md:col-11 lg:col-10 xl:col-8">
+                              <textarea name="message" class="xs:col-12 sm:col-12 md:col-12 lg:col-12 xl:col-12 form-textarea w-45 h-90 "  id=""  placeholder="Enter your Message"></textarea>
+                              
+                      
+                          </div>
+                      </div>
+                      <button type="submit" class="btn-green text-white hover:text-white mt-1">Submit</button>
+  
+                  </form>
+              </div>
+        
+            </div>
+            <div id="footer-right" class="  xs:col-12 md:col-6 lg:col-6 xl:col-5">
+              <div class="xs:col-12 md:col-6 lg:col-6 xl:col-5">
+                  <h4 class="">Useful Links</h4>
+              </div>
+              <div class="footer-top-links mt-1">
+                <div class="xs:col-12 sm:col-6 md:col-6 lg:col-6 footer-link">
+                 
+                  <ul>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Tato</a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Tanzania tourisim board</a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Mali asili </a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">zanzibar tourisim board</a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Hotels</a></li>
+                  </ul>
+                </div>
+            </div>
+              </div>
+  
+           </div>
+        
+          </div>
+          </section>
+  
+       
+  
+  <section class=" bg-donna-50">
+  
+       <footer id="footer" class=" "  >    
+          <div class="footer-top">
+            <div class="container">
+              <div class="row"> 
+                <div class="xs:col-12 sm:col-6 md:col-6 lg:col-3 footer-links">
+                  <h4>Travel & Culture</h4>
+                  <ul>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Destination</a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">About us</a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Culture</a></li>
+                  </ul>
+                </div>
+      
+                <div class="xs:col-12 sm:col-6 md:col-6 lg:col-3 footer-links">
+                  <h4>Support</h4>
+                  <ul>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Contact Us</a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">FAQs</a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="">SAfety Updates</a></li>
+                  </ul>
+                </div>
+                <div class="xs:col-12 sm:col-6 md:col-6 lg:col-3 footer-links">
+                  <h4>Community</h4>
+                  <ul>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Blog</a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="#">Blonchure</a></li>
+                    <li><i class="fa-solid fa-chevron-right mr-1 text-alt"></i> <a href="">Newslatter</a></li>
+                  </ul>
+                </div>
+                <div class="xs:col-12 sm:col-6 md:col-6 lg:col-3 footer-links">
+                  <h4>Social Networks</h4>
+                  <div class="social-links">
+                    <a href="#" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+  
+          <div class="container ">
+            <div class="copyright xs:col-12 sm:col-12 md:col-6 lg:col-3 mb-1">
+              &copy; Copyright . All Rights Reserved
+            </div>
+            <div class="credits xs:col-12 md:col-6 lg:col-3 mb-3">
+              Terms and <a href="#home">conditions</a>
+            </div>
+            <div class="credits xs:col-12 md:col-6 lg:col-3 mb-3">
+             Privacy <a href="#home">policy</a>
+            </div>
+          </div>
+  
+        </footer><!-- End Footer -->
+      </section>
+  
+      <script src="js/index.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
 </body>
 </html>
