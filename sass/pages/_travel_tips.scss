@@ -1,227 +1,269 @@
-
-
-
-  /*--------------------------------------------------------------
-#Travel tips page css
---------------------------------------------------------------*/
 .text-gray {
-    color: #808080;
+  color: #808080;
+}
+
+.text-alt {
+  color: #3490ad;
+}
+
+.bg-donna-50 {
+  background-color: rgba(249.3479710951, 252.3807670928, 253.3457476376, 0.948627451);
+}
+.mr-1 {
+  margin-right: 0.75rem;
+}
+.mt-1 {
+  margin-top: 0.75rem;
+}
+@media (min-width: 1200px) {
+  .xl\:mt-1 {
+    margin-top: 0.75rem;
   }
-  .mb-1 {
+}
+.mt-4 {
+  margin-top: 4.5rem;
+}
+.mb-1 {
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 0) {
+  .xs\:mb-1 {
     margin-bottom: 0.75rem;
   }
-  .font-lg {
-    font-size: 1.5rem;
+}
+@media (min-width: 600px) {
+  .sm\:mb-1 {
+    margin-bottom: 0.75rem;
   }
-  
-  .btn-outlined-red {
-    text-decoration: none;
-    cursor: pointer;
-    display: inline-block;
-    border: 0;
-    height: 40px;
-    padding: 0.27rem 2.16rem;
-    border-radius: 8px;
-    background-color: #FFFFFF;
-    align-self: center;
-    letter-spacing: 1px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red;
+}
+@media (min-width: 768px) {
+  .md\:mb-1 {
+    margin-bottom: 0.75rem;
   }
-  .btn-outlined-red:hover {
-    color: white;
-    font-weight: 700;
-    background-color: red;
+}
+@media (min-width: 992px) {
+  .lg\:mb-1 {
+    margin-bottom: 0.75rem;
   }
-  
-  img {
-    width: 100%;
-  }
-  
-  .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 1em;
-    box-sizing: border-box;
-  }
-  @media (min-width: 600px) {
-    .sm\:text-justified {
-      text-align: justify;
-    }
-  }
-  @media (min-width: 0) {
-    .container {
-      max-width: 91.6666666667%;
-    }
-  }
-  @media (min-width: 600px) {
-    .container {
-      max-width: 95%;
-    }
-  }
-  @media (min-width: 768px) {
-    .container {
-      max-width: 95%;
-    }
-  }
-  @media (min-width: 992px) {
-    .container {
-      max-width: 78.3333333333%;
-    }
-  }
-  @media (min-width: 1200px) {
-    .container {
-      max-width: 78.3333333333%;
-    }
-  }
-  @media (min-width: 1400px) {
-    .container {
-      max-width: 83.3333333333%;
-    }
-  }
-  
-  .row {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 0;
-    margin: 0;
-  }
-  @media (min-width: 0) {
-    .row {
-      flex-direction: column;
-    }
-  }
-  @media (min-width: 600px) {
-    .row {
-      flex-direction: row;
-    }
-  }
-  @media (min-width: 768px) {
-    .row {
-      flex-direction: row;
-    }
-  }
-  @media (min-width: 992px) {
-    .row {
-      flex-direction: row;
-    }
-  }
-  @media (min-width: 1200px) {
-    .row {
-      flex-direction: row;
-    }
-  }
-  @media (min-width: 1400px) {
-    .row {
-      flex-direction: row;
-    }
-  }
-  
-  .gap-1 > * {
-    padding: 12px;
-  }
-  
-  .center {
-    justify-content: center;
-  }
-  
-  .space-between {
-    justify-content: space-between;
-  }
-  
-  @media (min-width: 0) {
-    .xs\:col-12 {
-      box-sizing: border-box;
-      flex-grow: 0;
-      width: 100%;
-      padding: 0;
-    }
-  }
-  @media (min-width: 600px) {
-    .sm\:col-12 {
-      box-sizing: border-box;
-      flex-grow: 0;
-      width: 100%;
-      padding: 0;
-    }
-  }
-  @media (min-width: 768px) {
-    .md\:col-12 {
-      box-sizing: border-box;
-      flex-grow: 0;
-      width: 100%;
-      padding: 0;
-    }
-  }
-  @media (min-width: 992px) {
-    .lg\:col-12 {
-      box-sizing: border-box;
-      flex-grow: 0;
-      width: 100%;
-      padding: 0;
-    }
-  }
-  @media (min-width: 1200px) {
-    .xl\:col-6 {
-      box-sizing: border-box;
-      flex-grow: 0;
-      width: 50%;
-      padding: 0;
-    }
-  }
-  
-  @keyframes up-down {
-    0% {
-      transform: translateY(10px);
-    }
-    100% {
-      transform: translateY(-10px);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      border: none;
-      padding: 0;
-    }
-  }
-  
-  .bg-img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    width: 100%;
-  }
-  .bg-img.bg-center {
-    background-position: center;
-  }
-  @media (min-width: 600px) {
-    .bg-img {
-      height: 300px;
-    }
-  }
-  @media (min-width: 0) {
-    .bg-img {
-      height: auto;
-    }
-  }
-  @media (min-width: 768px) {
-    .bg-img {
-      height: 400px;
-    }
-  }
-  @media (min-width: 992px) {
-    .bg-img {
-      height: 400px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .bg-img {
-      height: 400px;
-    }
-  }
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.font-lg {
+  font-size: 1.5rem;
+}
 
-  /*--------------------------------------------------------------
-# End Travel tips page css
---------------------------------------------------------------*/
+.btn-outlined-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  height: 40px;
+  padding: 0.27rem 2.16rem;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  align-self: center;
+  letter-spacing: 1px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.btn-outlined-red:hover {
+  color: white;
+  font-weight: 700;
+  background-color: red;
+}
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+@media (min-width: 600px) {
+  .sm\:text-justified {
+    text-align: justify;
+  }
+}
+@media (min-width: 0) {
+  .container {
+    max-width: 91.6666666667%;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    max-width: 95%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 95%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 78.3333333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 78.3333333333%;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 83.3333333333%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 0) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media (min-width: 600px) {
+  .row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  .row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1400px) {
+  .row {
+    flex-direction: row;
+  }
+}
+
+.gap-1 > * {
+  padding: 12px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+@media (min-width: 0) {
+  .xs\:col-12 {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 600px) {
+  .sm\:col-6 {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 50%;
+    padding: 0;
+  }
+  .sm\:col-12 {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .md\:col-6 {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 50%;
+    padding: 0;
+  }
+  .md\:col-12 {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  .lg\:col-3 {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 25%;
+    padding: 0;
+  }
+  .lg\:col-12 {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .xl\:col-5 {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 41.6666666667%;
+    padding: 0;
+  }
+  .xl\:col-12 {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+}
+.bg-img.bg-center {
+  background-position: center;
+}
+@media (min-width: 600px) {
+  .bg-img {
+    height: 300px;
+  }
+}
+@media (min-width: 0) {
+  .bg-img {
+    height: auto;
+  }
+}
+@media (min-width: 768px) {
+  .bg-img {
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .bg-img {
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .bg-img {
+    height: 400px;
+  }
+}
